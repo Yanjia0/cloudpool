@@ -1,0 +1,33 @@
+/**index.wxss**/
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+#topblue{
+  width: 750rpx;
+  height: 50rpx;
+  background-color: #04B2F1;
+  margin: 0;
+  padding: 50rpx;
+}
+#zhuochi{
+  width:150rpx;
+  height:50rpx;
+  background-color: white;
+  margin:  0rpx;
+  border-style: dotted;
+  border-color:  #BDD7EE;
+}
+
+.bjimg{
+  display:block;
+  width:750rpx;
+  height:400rpx;
+}

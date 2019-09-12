@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view id="topblue">
+<!--顶部蓝条-->
+  <view id="zhuochi">
+  
+  <image wx:if="./img/bg.png" class="avatar" mode="aspectFit" src="./img/bg.png"></image>
+  <!--浊池-->
+  </view>
+</view>
+
