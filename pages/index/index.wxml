@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view id="topblue">
+<!--顶部蓝条-->
+  <view bindtap='icon'>
+    <image class="icon" src="./image/cloudpool.png">
+    </image>
+  </view>
+  <view id="zhuochi">
+  <!--浊池-->
+    <text>浊池CloudPool</text>
+  </view>
+</view>
+<view id="content">
+  <view class="sheet">
+        <view class="contentHeader">
+          <image class="contentHeaderImage" src="./image/zhuye2.png"></image>
+        </view>
+ 
+      
+        <view class="contenttext">
+          <text>CloudPool浊池</text>
+          <text>是由一群年轻人管理的博客</text>
+          <text>文章、图片等来源于朋友们自愿提交</text>
+          <text>如果你也有兴趣加入我们</text>
+          <text>或者给我们提意见</text>
+          <text>欢迎联系我们</text>
+          <text>cloudpool@zhuochi.org</text>
+        </view>
+      </view>
+</view>
