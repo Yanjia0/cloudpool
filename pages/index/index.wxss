@@ -18,7 +18,7 @@
   padding: 50rpx;
 }
 #zhuochi{
-  width:150rpx;
+  width:265rpx;
   height:50rpx;
   background-color: white;
   margin:  0rpx;
@@ -26,8 +26,38 @@
   border-color:  #BDD7EE;
 }
 
-.bjimg{
+
+.icon{
+  display:block;
+  width:150rpx;
+  height:75rpx;
+  position:absolute;
+  margin-left:500rpx;
+  
+}
+
+.contentHeaderImage{
   display:block;
   width:750rpx;
-  height:400rpx;
+  height:130rpx;
+}
+
+.contenttext{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: felx-start;
+  padding: 50rpx;
+}
+
+text{
+  display: block;
+  color:black;
+  
+}
+
+.textH1{
+  font-size: 18px;
+  color:
+
 }
