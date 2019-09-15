@@ -19,13 +19,9 @@
           <image class="contentHeaderImage" src="./image/zhuye2.png"></image>
         </view>
         <view class="contenttext">
-          <text class="textH1">CloudPool浊池</text>
-          <text>是由一群年轻人管理的博客</text>
-          <text>文章、图片等来源于朋友们自愿提交</text>
-          <text>如果你也有兴趣加入我们</text>
-          <text>或者给我们提意见</text>
-          <text>欢迎联系我们</text>
-          <text>cloudpool@zhuochi.org</text>
+          <block wx:for="{{zhuyearray[0]}}">
+            <text class="{{item.styleclass}}">{{item.str}}</text>
+          </block>
         </view>
       </view>
     </swiper-item>
@@ -35,12 +31,9 @@
           <image class="contentHeaderImage" src="./image/zhuochi.png"></image>
         </view>
         <view class="contenttext">
-          <text class="textH1">为什么我们喜欢一个不存在的网站</text>
-          <text>2017-01-07</text>
-          <text class="textH1">为什么我们要做浊池</text>
-          <text>2017-01-10</text>
-          <text class="textH1">【不想手动置顶】(滑稽) 浊池需要帮助</text>
-          <text>2099-01-01</text>
+          <block wx:for="{{zhuyearray[1]}}">
+            <text class="{{item.styleclass}}">{{item.str}}</text>
+          </block>
         </view>
       </view>
     </swiper-item>
@@ -50,8 +43,9 @@
           <image class="contentHeaderImage" src="./image/zhuopai.png"></image>
         </view>
         <view class="contenttext">
-          <text class="textH1">忘了发出来的微电影（大概算吧）</text>
-          <text>2018-06-08</text>
+          <block wx:for="{{zhuyearray[2]}}">
+            <text class="{{item.styleclass}}">{{item.str}}</text>
+          </block>
         </view>
       </view>
     </swiper-item>
@@ -61,12 +55,9 @@
           <image class="contentHeaderImage" src="./image/zhuowuli.png"></image>
         </view>
         <view class="contenttext">
-          <text class="textH1">关于物理的文章01</text>
-          <text>2018-05-13</text>
-          <text class="textH1">关于物理的文章02</text>
-          <text>2018-05-13</text>
-          <text class="textH1">奥卡姆上帝</text>
-          <text>2018-08-26</text>
+          <block wx:for="{{zhuyearray[3]}}">
+            <text class="{{item.styleclass}}">{{item.str}}</text>
+          </block>
         </view>
       </view>
     </swiper-item>
@@ -76,14 +67,9 @@
           <image class="contentHeaderImage" src="./image/zhuojishu.png"></image>
         </view>
         <view class="contenttext">
-          <text class="textH1">自用梯子教程</text>
-          <text>2019-06-22</text>
-          <text class="textH1">软件推荐v2.1</text>
-          <text>2019-08-10</text>
-          <text class="textH1">WTG--U盘内安装Windows</text>
-          <text>2019-01-21</text>
-          <text class="textH1">Windows安装</text>
-          <text>2018-10-17</text>
+          <block wx:for="{{zhuyearray[4]}}">
+            <text class="{{item.styleclass}}">{{item.str}}</text>
+          </block>
         </view>
       </view>
     </swiper-item>
@@ -94,9 +80,9 @@
         </view>
         <view class="contenttext">
           <text class="textH1">未完待续</text>
-          <image class="miao" src="./image/miao.png"></image>
-          <image class="miao" src="./image/miao2.png"></image>
-          <image class="miao" src="./image/miao3.png"></image>
+          <image class="miao" src="./image/miao.PNG"></image>
+          <image class="miao" src="./image/miao2.PNG"></image>
+          <image class="miao" src="./image/miao3.PNG"></image>
           <image class="miao" src="./image/miao4.png"></image>
         </view>
       </view>
