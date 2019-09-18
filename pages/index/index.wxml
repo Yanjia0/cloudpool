@@ -80,9 +80,9 @@
         </view>
         <view class="contenttext">
           <text class="textH1">未完待续</text>
-          <image class="miao" src="./image/miao.PNG"></image>
-          <image class="miao" src="./image/miao2.PNG"></image>
-          <image class="miao" src="./image/miao3.PNG"></image>
+          <image class="miao" src="./image/miao.png"></image>
+          <image class="miao" src="./image/miao2.png"></image>
+          <image class="miao" src="./image/miao3.png"></image>
           <image class="miao" src="./image/miao4.png"></image>
         </view>
       </view>
