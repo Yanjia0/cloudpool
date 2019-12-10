@@ -1,7 +1,13 @@
 {
   "pages": [
+    "pages/zhuye/zhuye",
+    "pages/logs/logs",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/fenlei/fenlei",
+    "pages/biaoqian/biaoqian",
+    "pages/guidang/guidang",
+    "pages/wangkan/wangkan",
+    "pages/guanyu/guanyu"
   ],
   "window": {
     "backgroundTextStyle": "light",
