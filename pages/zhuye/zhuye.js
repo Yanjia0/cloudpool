@@ -32,6 +32,46 @@ Page({
           str: 'cloudpool@zhuochi.org',
           styleclass: ''
         },
+        {
+          str: '.',
+          styleclass: 'textH1'
+        },
+        {
+          str: '.',
+          styleclass: 'textH1'
+        },
+        {
+          str: '.',
+          styleclass: 'textH1'
+        },
+        {
+          str: 'CloudPool浊池',
+          styleclass: 'textH1'
+        },
+        { 
+          str:'is a blog managed by a group of young people',
+          styleclass:''
+        },
+        {
+          str: 'articles, pictures, etc.are submitted voluntarily by friends',
+          styleclass: ''
+        },
+        {
+          str: 'if you are interested in joining us',
+          styleclass: ''
+        },
+        {
+          str: 'or want to give us feedback',
+          styleclass: ''
+        },
+        {
+          str: 'please contact us',
+          styleclass: ''
+        },
+        {
+          str: 'cloudpool@zhuochi.org',
+          styleclass: ''
+        }
       ],
       [
         {
