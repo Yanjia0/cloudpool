@@ -37,7 +37,7 @@
         <view class="contentHeader">
           <image class="contentHeaderImage" src="./image/zhuochi.png"></image>
         </view>
-        <view class="contenttext">
+        <view class="contenttext" bindtap="NavigateToZhuochi_Tuijian_1">
           <block wx:for="{{zhuyearray[1]}}">
             <text class="{{item.styleclass}}">{{item.str}}</text>
           </block>
@@ -49,7 +49,7 @@
         <view class="contentHeader">
           <image class="contentHeaderImage" src="./image/zhuopai.png"></image>
         </view>
-        <view class="contenttext">
+        <view class="contenttext" bindtap="NavigateToZhuopai_Tuijian">
           <block wx:for="{{zhuyearray[2]}}">
             <text class="{{item.styleclass}}">{{item.str}}</text>
           </block>
@@ -61,7 +61,7 @@
         <view class="contentHeader">
           <image class="contentHeaderImage" src="./image/zhuowuli.png"></image>
         </view>
-        <view class="contenttext">
+        <view class="contenttext" bindtap="NavigateToZhuowuli_Tuijian">
           <block wx:for="{{zhuyearray[3]}}">
             <text class="{{item.styleclass}}">{{item.str}}</text>
           </block>
@@ -73,7 +73,7 @@
         <view class="contentHeader">
           <image class="contentHeaderImage" src="./image/zhuojishu.png"></image>
         </view>
-        <view class="contenttext">
+        <view class="contenttext" bindtap="NavigateToZhuojishu_Tuijian">
           <block wx:for="{{zhuyearray[4]}}">
             <text class="{{item.styleclass}}">{{item.str}}</text>
           </block>

@@ -210,6 +210,26 @@ Page({
       url: '../fenlei/fenlei',
     })
   },
+  NavigateToZhuochi_Tuijian_1: function (event) {
+    wx.navigateTo({
+      url: '../Zhuochi_Tuijian/Zhuochi_Tuijian',
+    })
+  },
+  NavigateToZhuopai_Tuijian: function (event) {
+    wx.navigateTo({
+      url: '../Zhuopai_Tuijian/Zhuopai_Tuijian',
+    })
+  },
+  NavigateToZhuowuli_Tuijian: function (event) {
+    wx.navigateTo({
+      url: '../Zhuowuli_Tuijian/Zhuowuli_Tuijian',
+    })
+  },
+    NavigateToZhuojishu_Tuijian: function(event) {
+    wx.navigateTo({
+      url: '../Zhuojishu_Tuijian/Zhuojishu_Tuijian',
+    })
+  },
 
   bindViewTap: function () {
 

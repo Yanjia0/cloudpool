@@ -7,7 +7,11 @@
     "pages/biaoqian/biaoqian",
     "pages/guidang/guidang",
     "pages/wangkan/wangkan",
-    "pages/guanyu/guanyu"
+    "pages/guanyu/guanyu",
+    "pages/Zhuochi_Tuijian/Zhuochi_Tuijian",
+    "pages/Zhuopai_Tuijian/Zhuopai_Tuijian",
+    "pages/Zhuowuli_Tuijian/Zhuowuli_Tuijian",
+    "pages/Zhuojishu_Tuijian/Zhuojishu_Tuijian"
   ],
   "window": {
     "backgroundTextStyle": "light",
