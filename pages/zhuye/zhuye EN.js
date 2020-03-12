@@ -8,24 +8,24 @@ Page({
           str: 'CloudPool浊池',
           styleclass: 'textH1'
         },
+        { 
+          str:'is a blog managed by a group of young people',
+          styleclass:''
+        },
         {
-          str: '是由一群年轻人管理的博客',
+          str: 'articles, pictures, etc.are submitted voluntarily by friends',
           styleclass: ''
         },
         {
-          str: '文章、图片等来源于朋友们自愿提交',
+          str: 'if you are interested in joining us',
           styleclass: ''
         },
         {
-          str: '如果你也有兴趣加入我们',
+          str: 'or want to give us feedback',
           styleclass: ''
         },
         {
-          str: '或者给我们提意见',
-          styleclass: ''
-        },
-        {
-          str: '欢迎联系我们',
+          str: 'please contact us',
           styleclass: ''
         },
         {

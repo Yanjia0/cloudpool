@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/zhuye/zhuye",
+    "pages/zhuye/zhuye EN",
     "pages/logs/logs",
     "pages/index/index",
     "pages/fenlei/fenlei",
@@ -13,11 +14,28 @@
     "pages/Zhuowuli_Tuijian/Zhuowuli_Tuijian",
     "pages/Zhuojishu_Tuijian/Zhuojishu_Tuijian"
   ],
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/zhuye/zhuye",
+        "text": "中文"
+      },
+      {
+        "pagePath": "pages/zhuye/zhuye EN",
+        "text": "English"
+      }]
+      },
+
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {}
 }
