@@ -1,1 +1,105 @@
 /* pages/Zhuochi_Tuijian/Zhuochi_Tuijian.wxss */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.cubic{
+height:100rpx;
+width:200rpx;
+}
+
+.contentHeader{
+display:flex;
+}
+
+#topblue{
+  width: 750rpx;
+  height: 50rpx;
+  background-color: #04B2F1;
+  margin: 0;
+  padding: 50rpx;
+}
+#zhuochi{
+  width:265rpx;
+  height:50rpx;
+  background-color: white;
+  margin:  0rpx;
+  border-style: dotted;
+  border-color:  #BDD7EE;
+}
+
+
+.icon{
+  display:block;
+  width:150rpx;
+  height:75rpx;
+  position:absolute;
+  margin-left:500rpx;
+  
+}
+
+.contentHeaderImage{
+  display:block;
+  width:750rpx;
+  height:100rpx;
+}
+
+.contenttext{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: felx-start;
+  padding: 50rpx;
+}
+
+text{
+  display: block;
+  color: black;
+  margin: 10rpx;
+  
+}
+
+text.s{
+  display: block;
+  color: gray;
+  font-size: 10px;
+  
+}
+
+.textH1{
+  font-size: 18px;
+  color:rgb(63, 113, 156);
+
+}
+
+.textH2{
+  display: block;
+  color:#04B2F1;
+  font-size: 14px;
+}
+
+swiper, swiper-item, .sheet{
+  width:100%;
+  height: 1700rpx;
+
+}
+
+
+.my_text_2 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 20;
+  -webkit-box-orient: vertical;
+  align-content: center;
+  color: gray;
+  font-size: 10px;
+}
+

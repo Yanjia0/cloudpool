@@ -1,2 +1,91 @@
 <!--pages/Zhuochi_Tuijian/Zhuochi_Tuijian.wxml-->
-<text>pages/Zhuochi_Tuijian/Zhuochi_Tuijian.wxml</text>
+
+<view id="topblue">
+<!--顶部蓝条-->
+  <view id="zhuochi">
+  <!--浊池-->
+    <text class="textH2">浊池CloudPool</text>
+  </view>
+</view>
+<view id="content">
+  <swiper>
+    <swiper-item>
+      <view class="sheet">
+        <view class="contentHeader">
+              <view><text style="color:#04B2F1">【手动置顶】</text></view>
+             <view><text>浊池是什么</text></view>
+        </view>
+        <view class="contenttext">
+          <block wx:for="{{zhuchiarray[0]}}">
+            <text class="{{item.styleclass}}">{{item.str}}</text>
+          </block>
+          <block wx:for="{{zhuchiarray[1]}}">
+            <text class="my_text_2">{{item.str}}</text>
+          </block>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="sheet">
+        <view class="contentHeader">
+          <image class="contentHeaderImage" src="./image/zhuochi.png"></image>
+        </view>
+        <view class="contenttext" bindtap="NavigateToZhuochi_Tuijian_1">
+          <block wx:for="{{zhuyearray[1]}}">
+            <text class="{{item.styleclass}}">{{item.str}}</text>
+          </block>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="sheet">
+        <view class="contentHeader">
+          <image class="contentHeaderImage" src="./image/zhuopai.png"></image>
+        </view>
+        <view class="contenttext" bindtap="NavigateToZhuopai_Tuijian">
+          <block wx:for="{{zhuyearray[2]}}">
+            <text class="{{item.styleclass}}">{{item.str}}</text>
+          </block>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="sheet">
+        <view class="contentHeader">
+          <image class="contentHeaderImage" src="./image/zhuowuli.png"></image>
+        </view>
+        <view class="contenttext" bindtap="NavigateToZhuowuli_Tuijian">
+          <block wx:for="{{zhuyearray[3]}}">
+            <text class="{{item.styleclass}}">{{item.str}}</text>
+          </block>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="sheet">
+        <view class="contentHeader">
+          <image class="contentHeaderImage" src="./image/zhuojishu.png"></image>
+        </view>
+        <view class="contenttext" bindtap="NavigateToZhuojishu_Tuijian">
+          <block wx:for="{{zhuyearray[4]}}">
+            <text class="{{item.styleclass}}">{{item.str}}</text>
+          </block>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="sheet">
+        <view class="contentHeader">
+          
+        </view>
+        <view class="contenttext">
+          <text class="textH1">未完待续</text>
+          <image class="miao" src="./image/miao.png"></image>
+          <image class="miao" src="./image/miao2.png"></image>
+          <image class="miao" src="./image/miao3.png"></image>
+          <image class="miao" src="./image/miao4.png"></image>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>
