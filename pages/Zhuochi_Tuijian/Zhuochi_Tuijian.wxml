@@ -16,11 +16,12 @@
              <view><text>浊池是什么</text></view>
         </view>
         <view class="contenttext">
-          <block wx:for="{{zhuchiarray[0]}}">
-            <text class="{{item.styleclass}}">{{item.str}}</text>
+          <block wx:for="{{zhuochiarray[0]}}">
+            <text class="{{item.style}}">{{item.str}}</text>
           </block>
-          <block wx:for="{{zhuchiarray[1]}}">
-            <text class="my_text_2">{{item.str}}</text>
+          <text>\n\n\n</text>
+          <block wx:for="{{zhuochiarray[1]}}">
+            <text class="text.s">{{item.str}}</text>
           </block>
         </view>
       </view>
@@ -28,13 +29,14 @@
     <swiper-item>
       <view class="sheet">
         <view class="contentHeader">
-          <image class="contentHeaderImage" src="./image/zhuochi.png"></image>
+          <text class="text.title">为什么我们要做浊池</text>
+          <text class="text.s">\n2017-01-10</text>
         </view>
-        <view class="contenttext" bindtap="NavigateToZhuochi_Tuijian_1">
-          <block wx:for="{{zhuyearray[1]}}">
-            <text class="{{item.styleclass}}">{{item.str}}</text>
+        
+          <block wx:for="{{zhuochiarray[2]}}">
+            <text class="text.c">{{item.str}}</text>
           </block>
-        </view>
+
       </view>
     </swiper-item>
     <swiper-item>
